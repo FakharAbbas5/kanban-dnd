@@ -1,3 +1,7 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 .dnd {
   display: flex;
   justify-content: center;
@@ -8,6 +12,12 @@
   display: flex;
   flex-flow: column;
   align-items: center;
+}
+
+.dnd__column h2 {
+  background-color: #e3f8ff;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
 }
 
 .dnd__column__droppable {

@@ -89,7 +89,7 @@ function App() {
                         ref={provided.innerRef}
                         style={{
                           background: snapshot.isDraggingOver
-                            ? "lightblue"
+                            ? "#E3F8FF"
                             : "#f3f3f3",
                         }}
                         className='dnd__column__droppable__container'
@@ -110,8 +110,8 @@ function App() {
                                     style={{
                                       userSelect: "none",
                                       backgroundColor: snapshot.isDragging
-                                        ? "#263B4A"
-                                        : "#456C86",
+                                        ? "lightgray"
+                                        : "#3CA9A6",
                                       ...provided.draggableProps.style,
                                     }}
                                     className='dnd__column__droppable__container__draggable'
