@@ -1,0 +1,28 @@
+.dnd {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.dnd__column {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.dnd__column__droppable {
+  margin-left: 10px;
+}
+
+.dnd__column__droppable__container {
+  padding: 5px;
+  width: 300px;
+  min-height: 750px;
+}
+
+.dnd__column__droppable__container__draggable {
+  padding: 20px;
+  margin: 0 0 8px 0;
+  min-height: 50px;
+  color: white;
+}
